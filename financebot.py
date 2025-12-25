@@ -9,7 +9,7 @@ import pytz
 import os
 
 # OpenAI API Key
-openai_api_key = os.getenv("sk-8855cc29e76745ef9e57ea5aa98dc320")
+openai_api_key = os.getenv("OPENAI_API_KEY")
 # 从环境变量获取 Server酱 SendKeys
 server_chan_keys_env = os.getenv("SERVER_CHAN_KEYS")
 if not server_chan_keys_env:
